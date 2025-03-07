@@ -49,22 +49,25 @@ mkdir ~/.bashrc.d
 
 ## Usage
 The script runs automatically when starting a new Bash session. It will:
+
 1. Configure your environment
-2. Display storage information
-4. Prompt to switch to Fish shell (if installed)
-5. Press 'f' to switch within 30 seconds
-6. Wait or press any other key to continue with Bash
+3. Display storage information
+5. Prompt to switch to Fish shell (if installed)
+7. Press 'f' to switch within 30 seconds
+9. Wait or press any other key to continue with Bash
 
 ## Customization
--Modify the timeout variable to change the countdown duration
--Adjust bar_width and storage_bar_width for progress bar lengths
--Change ANSI color codes (GREEN, BLUE, etc.) for different colors
--Add custom scripts to ~/.bashrc.d/ for additional functionality
+
+- Modify the timeout variable to change the countdown duration
+- Adjust bar_width and storage_bar_width for progress bar lengths
+- Change ANSI color codes (GREEN, BLUE, etc.) for different colors
+- Add custom scripts to ~/.bashrc.d/ for additional functionality
 
 ## Color Scheme
--Green: Positive messages, available space
--Blue: Storage device info, current shell
--Yellow: Usage stats, percentages
--Cyan: Progress bar brackets
--Magenta: Filled progress bar
-Red: Timeout warnings
+
+- Green: Positive messages, available space
+- Blue: Storage device info, current shell
+- Yellow: Usage stats, percentages
+- Cyan: Progress bar brackets
+- Magenta: Filled progress bar
+- Red: Timeout warnings
