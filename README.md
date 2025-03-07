@@ -1,5 +1,3 @@
-Here's a README.md file for the provided Bash script:
-markdown
 # Custom Bash Configuration Script
 
 This script enhances the Bash shell startup process with additional features like environment setup, a Fish shell switcher, and storage information display.
