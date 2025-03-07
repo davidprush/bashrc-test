@@ -1,0 +1,2 @@
+# bashrc-test
+.bashrc testing
